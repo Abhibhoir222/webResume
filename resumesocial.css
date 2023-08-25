@@ -226,6 +226,18 @@ section:nth-child(2n+1){
     background-color:#403066;
 }
 
+.mb-light-blue{
+    background-color:#5f61da;
+}
+
+.mb-light-skyblue{
+    background-color:#579ca1;
+}
+
+.mb-light-nodejs{
+    background-color: #215732;
+}
+
 .mb75px{
     margin-bottom: 70px;
 }
@@ -514,7 +526,7 @@ button:hover{
     top: 10%;
     left: 50%;
     border: 1px dashed #0096fa6b;
-    height: 66%;
+    height: 70%;
     color: #433E3F;
 }
 
