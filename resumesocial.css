@@ -293,6 +293,62 @@ section:nth-child(2n+1){
     background-color: #2857a4;
 }
 
+/* certification */
+
+#certification-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.certification-image-container {
+    max-width: 415px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.certification-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.certification-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+
+.certification-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.certification-image-container:hover .certification-details {
+    background-color: #80808078;
+    color: white;
+} */
+
+
+.certification-image-container:hover .certification-details span {
+    background-color: #2857a4;
+} 
+
+
+
+
+
+/* certification */
+
 
 #contact{
     background-color: #0abcf9;
