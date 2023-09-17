@@ -196,6 +196,19 @@ section:nth-child(2n+1){
     height: inherit;
 }
 
+.eightyfive-percent{
+    width: 85%;
+    height: inherit;
+}
+.seventy-percent{
+    width: 73%;
+    height: inherit;
+}
+.seventyfive-percent{
+    width: 75%;
+    height: inherit;
+}
+
 .skill-name span{
     color: white;
     font-size: 1rem;
